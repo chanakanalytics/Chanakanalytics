@@ -1,0 +1,41 @@
+.container-fluid {
+    max-width: 1440px;
+}
+.quote-message .content li .ipd {
+    flex-shrink: 0;
+}
+
+@media only screen and (max-width: 991px){
+    .quote-message .content .connect-social {
+        margin-top: 60px;
+    }
+    footer {
+        margin-top: 46px;
+    }
+    .quote-message .content li h6 {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .latest-blog-section {
+        padding-bottom: 18px;
+    }
+    .get-started-section .ttx h3 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 16px;
+    }
+    .get-started-section .li-btn a+a {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .quote-message .content .title h3,
+    .latest-blog-section .title h4 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .quote-message .content .title p {
+        font-size: 16px;
+        line-height: normal;
+    }
+}

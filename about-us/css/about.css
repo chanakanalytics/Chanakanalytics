@@ -1,0 +1,809 @@
+.about_us_banner {
+    margin: 46px 0 90px;
+    padding: 170px 0 100px;
+    position: relative;
+    background: linear-gradient(311.82deg, #D4E7FE -15.13%, #FFFFFF 78.87%);
+}
+.about_us_banner .banner-text h3{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.about_us_banner .banner-text h3::after {
+    content: var(--pseudo);
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    bottom: 10px;
+    right: 0;
+    background: var(--blue);
+    transform: rotate(-1.86deg);
+}
+.about_us_banner .banner-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #656464;
+}
+.about_us_banner .banner-text p:last-of-type,
+.about_us_banner .banner-text p:last-child{
+    margin-bottom: 0;
+}
+.about_us_banner .item {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 12px;
+    padding: 23px 20px;
+}
+.about_us_banner .item .ic {
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.about_us_banner .item h5 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.012em;
+    color: #061C3D;
+    margin-bottom: 8px;
+}
+.about_us_banner .item p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #42526B;
+}
+.about_us_banner .itm-card{
+    margin: -1px;
+}
+.about_us_banner .itm-card [class^="col"]::after{
+    position: absolute;
+    content: var(--pseudo);
+    top: 0;
+    bottom:0;
+    left:  -0.5px;
+    border-left: 1px solid #BDD2EE;
+}
+.about_us_banner .itm-card [class^="col"]::before{
+    position: absolute;
+    content: var(--pseudo);
+    right: 0;
+    bottom: -0.5px;
+    left: 0;
+    border-bottom: 1px solid #BDD2EE;
+}
+
+
+.companies_dtl{
+    margin-bottom: 112px;
+}
+.companies_dtl .ttx h2{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    color: #121127;
+    margin-bottom: 28px;
+}
+.companies_dtl .ttx p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #42526B;
+    margin-bottom: 18px;
+}
+.companies_dtl .ttx p:last-of-type,
+.companies_dtl .ttx p:last-child{
+    margin-bottom: 0;
+}
+.companies_dtl .content ul {
+    background: #FFF9EE;
+    border-radius: 16px;
+    margin: 0;
+    padding: 0 32px;
+}
+.companies_dtl .content li {
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+.companies_dtl .content li+li {
+    border-top: 1px solid #061c3d0f;
+}
+.companies_dtl .content li img {
+    flex: 0 0 0;
+    margin-right: 20px;
+}
+.companies_dtl .content h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #061C3D;
+}
+.companies_dtl .content p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #42526B;
+    margin-bottom: 0;
+}
+
+.facts__financials{
+    padding: 90px 0 144px;
+}
+.facts__financials::after{
+    content: var(--pseudo);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -52px;
+    bottom: -84px;
+    z-index: -1;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+.facts__financials .title{
+    padding-bottom: 50px;
+}
+.facts__financials .title h2{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 140%;
+    color: #121127;
+}
+.facts__financials .item{
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+}
+.facts__financials .st{
+    background: #E9EBFF;
+}
+.facts__financials .nd{
+    background: #FFF5E7;
+}
+.facts__financials .rd{
+    background: #FFE0F8;
+}
+.facts__financials .th{
+    background: #D9FFDB;
+}
+.facts__financials .f-th{
+    background: var(--white);
+}
+.facts__financials .s-th{
+    background: #CCE1ED;
+}
+.facts__financials .svn-th{
+    background: var(--white);
+}
+.facts__financials .item h3{
+    margin: 16px 0 14px;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 48px;
+    color: #212B36;
+}
+.facts__financials .item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #191D23;
+}
+.service__testimonial{
+    margin-bottom: 100px;
+}
+.or__story .ttx h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #121127;
+}
+.or__story .ttx p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #42526B;
+}
+.or__story .ttx ul{
+    padding-top: 45px;
+}
+.or__story .ttx ul li+li{
+    margin-top: 24px;
+}
+.or__story .ttx ul li img{
+    max-width: 40px;
+}
+.or__story .ttx ul li h5{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #061C3D;
+    margin-bottom: 6px;
+}
+.or__story .ttx ul li span{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6A778B;
+}
+
+.project__flexibilities{
+    background: #f9f9fb15;
+    padding: 85px 0;
+    margin-bottom: 80px;
+}
+
+.project__flexibilities  .content li::before {
+    content: var(--pseudo);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/images/check-cr-fr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+    top: 2px;
+}
+.project__flexibilities .head{
+    padding-bottom: 44px;
+}
+.project__flexibilities .head h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #121127;
+}
+.project__flexibilities  .content >*{
+    max-width: 456px;
+}
+.project__flexibilities .content h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%; 
+    color: #217BF4;
+}
+.project__flexibilities .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color:#1211278f;
+}
+.project__flexibilities .content .img-set{
+    margin: 24px 0;
+}
+.project__flexibilities .content .img-set::before{
+    content: var(--pseudo);
+    display: block;
+    width: 100%;
+    padding-top: 64%;
+}
+.project__flexibilities .content .img-set img{
+    inset: 0;
+    object-fit: cover;
+}
+.project__flexibilities .content li+li{
+    margin-top: 8px;
+}
+.project__flexibilities .content li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #121127;
+}
+.about_story{
+    margin-top: 150px;
+}
+.about_head_sub{
+    max-width: 750px;
+    margin-bottom: 44px;
+}
+.about_head_sub h2{
+    color: #121127;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 14px;
+}
+.about_head_sub p{
+    color: #061C3D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about_head_sub p:last-child{
+    margin-bottom: 0;
+}
+.about_story .card_item{
+    border-radius: 20px;
+    border: 1px solid #F5F6F7;
+    background: #FFF;
+    padding: 40px;
+    transition: var(--transition);
+}
+.about_story .card_item .img_xp{
+    flex-shrink: 0;
+    border-radius: 10px;
+    width: 76px;
+    height: 76px;
+    background:#F0F5FF;
+    transition: var(--transition);
+}
+.about_story .card_item:hover {
+    box-shadow: 14px 22px 52px #7f7f7f21;
+}
+.about_story .card_item .ttx{
+    padding-left: 32px;
+}
+.about_story .card_item .ttx h3{
+    color: #121127;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+.about_story .card_item .ttx p{
+    color: #061C3D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about_story .card_item .ttx p:last-of-type,
+.about_story .card_item .ttx p:last-child{
+    margin-bottom: 0;
+}
+
+
+.about_story .card_item .link_up {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.about_story .card_item .link_up img {
+    margin: 0 0 0 6px;
+}
+.about_practices{
+    margin-bottom: 80px;
+}
+.about_practices .ttx-item{
+    padding-right: 20px;
+}
+.about_practices .ttx-item h3{
+    color: #121127;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.about_practices .ttx-item p{
+    color: #061C3D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about_practices .ttx-item p:last-of-type,
+.about_practices .ttx-item p:last-child{
+    margin-bottom: 0;
+}
+.technology_vrTab{
+    padding: 150px 0;
+    background: linear-gradient(0deg, #f1f6fd00 13.52%, #F1F6FD 30.11%, #F1F6FD 63.58%, #FFF 100%);
+}
+.technology_vrTab .vrTab_content .nav-tabs{
+    flex-direction: column;
+}
+.technology_vrTab .vrTab_content .tab-content,
+.technology_vrTab .vrTab_content .nav-tabs{
+    padding: 20px 30px;
+    height: 100%;
+    border: 1px solid #D9E9F9;
+}
+.technology_vrTab .vrTab_content .nav-tabs{
+    background-color: var(--white);
+}
+.technology_vrTab .vrTab_content .tab-content{
+    background: #F8FBFE;
+}
+.technology_vrTab .vrTab_content .nav-tabs > li+li{
+    margin-top: 40px;
+}
+.technology_vrTab .vrTab_content .nav-tabs .nav-link{
+    width: 100%;
+    color: #A0A3BD;
+    padding: 0 0 25px;
+    text-align: initial;
+    border: none;
+    border-bottom: 2px transparent solid;
+    border-radius: 0 !important;
+}
+.technology_vrTab .vrTab_content .nav-tabs .nav-link.active{
+    color: #170F49;
+    background-color: initial;
+    border-bottom: 2px #4A3AFF solid;
+}
+.technology_vrTab .vrTab_content .nav-tabs .nav-link .icon-xp{
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background-color: #EDEBFF;
+    margin-right: 20px;
+}
+.technology_vrTab .vrTab_content .nav-tabs .nav-link p{
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.technology_vrTab .ixp-logo{
+    padding: 10px;
+    border-radius: 12px;
+    height: 100px;
+    background-color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1280px){
+    .facts__financials .item h3 {
+        margin: 12px 0 10px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-link p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .about_story .card_item {
+        padding: 28px;
+    }
+    .about_head_sub h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .about_practices .ttx-item h3 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .about_practices {
+        margin-bottom: 36px;
+    }
+    .project__flexibilities {
+        margin-bottom: 52px;
+    }
+    .about_story .card_item .ttx {
+        padding-left: 28px;
+    }
+    .about_story .card_item .img_xp {
+        width: 65px;
+        height: 65px;
+    }
+    .about_story {
+        margin-top: 96px;
+    }
+    .technology_vrTab {
+        padding: 100px 0;
+    }
+    .service__testimonial{
+        margin-bottom: 80px;
+    }
+    .about_us_banner .banner-text h3 {
+        font-size: 44px;
+    }
+    .facts__financials .title h2,
+    .companies_dtl .ttx h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .facts__financials .title {
+        padding-bottom: 37px;
+    }
+    .facts__financials {
+        padding: 28px 0 114px;
+    }
+    .facts__financials::after {
+        top: -42px;
+        bottom: -54px;
+    }
+    .or__story .ttx h2,
+    .project__flexibilities .head h2 {
+        font-size: 32px; 
+    }
+    .facts__financials .item {
+        padding: 20px;
+    }
+    .facts__financials .item h3 {
+        margin: 10px 0;
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .companies_dtl {
+        margin-bottom: 93px;
+    }
+    .project__flexibilities .head {
+        padding-bottom: 28px;
+    }
+    .about_us_banner .item {
+        padding:20px 18px;
+    }
+    .about_us_banner .item p {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .about_story .card_item {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .about_us_banner {
+        margin: 46px 0 60px;
+        padding: 95px 0 60px;
+    }
+    .about_story .card_item .img_xp {
+        width: 50px;
+        height: 50px;
+        padding: 0.8rem !important;
+    }
+    .about_head_sub {
+        max-width: initial;
+        margin-bottom: 22px;
+    }
+    .about_story {
+        margin-top: 56px;
+    }
+    .technology_vrTab {
+        padding: 77px 0;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-link .icon-xp {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        margin-right: 15px;
+        padding: 11px;
+    }
+    .technology_vrTab .vrTab_content .tab-content, .technology_vrTab .vrTab_content .nav-tabs {
+        padding: 16px 20px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-link p {
+        font-size: 17px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-link {
+        padding: 0 0 16px;
+    }
+    .technology_vrTab .ixp-logo {
+        height: 80px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs > li+li {
+        margin-top: 33px;
+    }
+    .about_story .card_item .ttx h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .about_story .card_item .ttx {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .about_story .card_item .link_up {
+        margin-top: 14px;
+    }
+    .facts__financials .title h2, .companies_dtl .ttx h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .companies_dtl .ttx h2 {
+        margin-bottom: 18px;
+    }
+    .companies_dtl {
+        margin-bottom: 67px;
+    }
+    .or__story .ttx p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .or__story .ttx ul {
+        padding-top: 28px;
+    }
+    .or__story .ttx ul li img {
+        max-width: 24px;
+    }
+    .or__story .ttx ul li h5 {
+        font-size: 18px;
+        line-height: normal;
+        margin-bottom: 6px;
+    }
+    .or__story .ttx ul li span {
+        font-size: 14px;
+        line-height: 18px;
+        display: block;
+    }
+    .or__story .ttx ul li+li {
+        margin-top: 18px;
+    }
+    .project__flexibilities .head {
+        padding-bottom: 18px;
+    }
+    .project__flexibilities  .content >* {
+        max-width: initial;
+    }
+    .facts__financials::after {
+        top: 0;
+        bottom: -94px;
+    }
+    .about_us_banner .banner-text h3 {
+        font-size: 40px;
+        margin-bottom: 7px;
+    }
+    .project__flexibilities {
+        margin-bottom: 0;
+    }
+    .technology_vrTab .vrTab_content{
+        margin-top: 42px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .service__testimonial {
+        margin-bottom: 16px;
+    }
+    .facts__financials {
+        padding: 28px 0 54px;
+    }
+    .about_us_banner {
+        margin: 46px 0 42px;
+        padding: 45px 0 32px;
+    }
+    .facts__financials .title h2, .companies_dtl .ttx h2 {
+        font-size: 26px;
+        line-height: normal;
+    }
+    .companies_dtl .ttx p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 14px;
+    }
+    .companies_dtl {
+        margin-bottom: 54px;
+    }
+    .or__story .theml-set img{
+        max-width: 276px;
+        margin: auto;
+        display: block;
+    }
+    .companies_dtl .content li {
+        flex-wrap: wrap;
+    }
+    .companies_dtl .content li img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-item {
+        width: 260px;
+        flex-shrink: 0;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs > li+li {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-link p {
+        font-size: 15px;
+    }
+    .technology_vrTab .vrTab_content .nav-tabs .nav-link {
+        padding: 0 0 7px;
+    }
+    .about_practices .ttx-item {
+        padding-right: 0;
+        text-align: center;
+    }
+    .about_practices .ttx-item p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .about_practices .ttx-item h3 {
+        font-size: 19px;
+        margin-bottom: 6px;
+    }
+    .project__flexibilities .content h3,
+    .project__flexibilities .content p {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 576px){
+    .project__flexibilities .content p {
+        font-size: 15px;
+        line-height: 153%;
+    }
+    .technology_vrTab {
+        padding: 50px 0;
+    }
+    .technology_vrTab .vrTab_content {
+        margin-top: 16px;
+    }
+    .about_us_banner .banner-text{
+        text-align: center;
+    }
+    .about_us_banner .banner-text h3 {
+        font-size: 36px;
+        margin: auto auto 7px;
+    }
+    .about_us_banner .item {
+        padding:20px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .about_us_banner .item .ic {
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+    .facts__financials {
+        padding: 0px 0 54px;
+    }
+    .facts__financials .title {
+        padding-bottom: 25px;
+    }
+    .facts__financials .item {
+        text-align: center;
+        padding: 15px;
+    }
+    .facts__financials .item h3 {
+        margin: 10px 0 7px;
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .facts__financials .item p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .about_head_sub h2,
+    .or__story .ttx h2, .project__flexibilities .head h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .about_story .card_item .ttx,
+    .about_head_sub p,
+    .or__story .ttx p {
+        text-align: center;
+    }
+    .about_story .card_item {
+        justify-content: center;
+    }
+    .about_story .card_item .ttx p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .about_head_sub p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 470px){
+   
+}

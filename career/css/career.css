@@ -1,0 +1,536 @@
+.career-banner{
+    margin: 46px 0 0;
+    padding:140px 0px 100px;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+.career-banner .banner-text h3{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #170F49;
+    margin-bottom: 12px;
+    position: relative;
+    width: fit-content;
+}
+.career-banner .banner-text h3::after {
+    content: var(--pseudo);
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    bottom: 7px;
+    right: 0;
+    background: #404EFF;
+    transform: rotate(-1.86deg);
+}
+.career-banner .banner-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6F6C90;
+    margin-bottom: 0;
+}
+.career-banner .banner-text .rated-card{
+    display: flex;
+    background-color: var(--white);
+    box-shadow: 0px 1px 11px rgba(33, 123, 244, 0.19);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 13px 17px 13px 13px;
+    margin-top: 28px;
+}
+.career-banner .banner-text .rated-card .icon{
+    width: 43px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-right: 14px;
+}
+.career-banner .banner-text .rated-card .icon img{
+    border-radius: 5px;
+}
+.career-banner .banner-text .rated-card .ttx{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #656464;
+    text-align: left;
+}
+.career-banner .banner-text .rated-card .ttx a{
+    text-decoration: none;
+    color: #0CAA41;
+}
+.career-banner .video-container {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+}
+.career-banner .video-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    max-width: 420px;
+}
+.career-banner .play-button-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    background: linear-gradient(0deg, rgba(33, 123, 244, 0.23), rgba(33, 123, 244, 0.23));
+}
+.career-banner .play-button-wrapper .play-gif {
+    cursor: pointer;
+    pointer-events: auto;
+    width: 48px;
+    height: 48px;
+    background-color: var(--blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* --- */
+.section-title h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #121127;
+    margin-bottom: 8px;
+}
+.section-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+.section-title p:last-of-type,
+.section-title p:last-child{
+    margin-bottom: 0;
+}
+/* --- */
+.designation-position{
+    margin-top: 84px;
+}
+.designation-position .filter-src{
+    padding-top: 30px;
+}
+.designation-position .filter-src .group{
+    position: relative;
+}
+.designation-position .filter-src .group [type="submit"] {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.designation-position .filter-src .group select,
+.designation-position .filter-src .group input:not([type="submit"]){
+    border: 1px solid #EEF3F8;
+    border-radius: 5px;
+    background-color: var(--white);
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    color: #616668;
+    padding: 14px 16px;
+}
+.designation-position .position-card{
+    margin-top: 35px;
+    border: 1px solid #EBEEEF;
+    border-radius: 5px;
+    background: var(--white);
+    padding: 30px;
+    transition: var(--transition);
+    position: relative;
+}
+.designation-position .position-card:hover{
+    border: 1px solid #B0DDFF;
+box-shadow: 0px 7px 32px rgba(31, 157, 244, 0.15);
+}
+.designation-position .position-card .tag-img{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.designation-position .position-card .header{
+    display: flex;
+    align-items: flex-start;
+}
+.designation-position .position-card .header .icon{
+    background: var(--white);
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    padding: 10px;
+}
+.designation-position .position-card .header .ttx{
+    margin-left: 15px;
+}
+.designation-position .position-card .header .ttx h3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+    color: #101820;
+    margin-bottom: 0;
+}
+.designation-position .position-card .header .ttx .tag{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 4px;
+    padding: 4px 7px;
+    margin-left: 26px;
+}
+.designation-position .position-card .header .ttx .tag-blue{
+    color: #1B94E9;
+    background: #129cfc14;
+    border: 1px solid #0781d747;
+}
+.designation-position .position-card .header .ttx .tag-orgn{
+    color: #E98A1B;
+    background: #fcba1214;
+    border: 1px solid #d7b50747;
+}
+.designation-position .position-card .header .ttx .tag-red{
+    color: #F97272;
+    background: #ed626224;
+    border: 1px solid #f1626b85;
+}
+.designation-position .position-card .header .ttx ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 18px;
+}
+.designation-position .position-card .header .ttx ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #81898E;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.designation-position .position-card .header .ttx ul li span{
+    font-weight: 500;
+    color: #101820;
+}
+.designation-position .position-card .header .ttx ul li img{
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+.designation-position .position-card .header .ttx ul li+li {
+    border-left: 1px solid #adafb1;
+    padding-left: 12px;
+}
+.designation-position .position-card .parag{
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.designation-position .position-card .parag p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #616668;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.designation-position .position-card .parag a{
+    text-decoration: none;
+    background-color: var(--blue);
+    padding: 11px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--white);
+    text-transform: uppercase;
+    width: fit-content;
+    border-radius: 5px;
+}
+.designation-position .position-card .parag a img{
+    margin-left: 9px;
+    width: 20px;
+}
+/*  */
+.key-figures{
+    margin-top: 85px;
+}
+.key-figures .section-title{
+    margin-bottom: 40px;
+}
+.key-figures .item-card{
+    display: flex;
+    align-items: center;
+}
+.key-figures .item-card img{
+    flex-shrink: 0;
+    max-width: 56px;
+    margin-right: 20px;
+}
+.key-figures .item-card h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.012em;
+    color: #061C3D;
+    margin-bottom: 5px;
+}
+.key-figures .item-card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #42526B;
+    margin-bottom: 0;
+}
+.key-figures .border-set{
+    padding: 20px;
+    position: relative;
+    /* border-bottom: 1px solid #a1b0cf8a;
+    border-right: 1px solid #a1b0cf8a; */
+}
+.key-figures .border-set::before{
+    content: var(--pseudo);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: -1px;
+    border-left: 1px solid #a1b0cf8a;
+}
+.key-figures .border-set::after{
+    content: var(--pseudo);
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #a1b0cf8a;
+}
+/*  */
+.perks-benefits{
+    margin-top: 85px;
+}
+.perks-benefits .section-title{
+    margin-bottom: 40px;
+}
+.perks-benefits .content{
+    text-decoration: none;
+    color: initial;
+}
+.perks-benefits .content .item-logo{
+    width: 70px;
+    height: 70px;
+    background: var(--white);
+    border: 2px solid #F0F5FF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+.perks-benefits .content h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    letter-spacing: -0.015em;
+    color: #061C3D;
+}
+.perks-benefits .content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #838E9E;
+    margin-bottom: 0;
+}
+
+
+
+
+
+@media (max-width:1280px){
+    .section-title h3 {
+        font-size: 30px;
+    }
+    .designation-position {
+        margin-top: 60px;
+    }
+    
+}
+
+@media (max-width:1199px){
+    .career-banner .video-container video {
+        max-width: 360px;
+    }
+    .career-banner .banner-text p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .career-banner .banner-text .rated-card .icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+    }
+}
+@media (max-width:991px) {
+    .designation-position .position-card .header .ttx h3 {
+        font-size: 20px;
+    }
+    .designation-position .position-card .parag p {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .perks-benefits,
+    .key-figures {
+        margin-top: 60px;
+    }
+    .section-title h3 {
+        font-size: 24px;
+    }
+    .section-title p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .key-figures .item-card h3 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .key-figures .item-card img {
+        max-width: 40px;
+        margin-right: 14px;
+    }
+    .key-figures .border-set {
+        padding: 14px;
+    }
+    .perks-benefits .content h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .perks-benefits .content .item-logo {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .designation-position .position-card .parag a {
+        padding: 11px;
+        font-size: 12px;
+    }
+}
+@media (max-width:767px){
+    .designation-position .position-card .header{
+        display: block;
+    }
+    .career-banner .banner-text{
+        text-align: center;
+    }
+    .designation-position .position-card .header .ttx{
+        margin: 12px 0 0;
+    }
+    .designation-position .position-card .header .ttx ul {
+        padding-top: 12px;
+    }
+    .designation-position .position-card .header .ttx ul li+li {
+        padding-left: 9px;
+    }
+    .designation-position .position-card .header .ttx ul li{
+        margin-right: 9px;
+    }
+    .designation-position .position-card {
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .career-banner .banner-text h3 {
+        font-size: 30px;
+        line-height: 46px;
+        margin: auto auto 12px;
+    }
+    .career-banner .banner-text .rated-card{
+        margin: 28px auto auto;
+    }
+    .career-banner .video-container{
+        margin: auto;
+    }
+    .career-banner {
+        padding: 75px 0px;
+    }
+    .designation-position .filter-src {
+        padding-top: 18px;
+    }
+    .designation-position .position-card .parag a {
+        padding: 9px;
+        font-size: 11px;
+    }
+    .designation-position .position-card .parag a img {
+        margin-left: 7px;
+        width: 16px;
+    }
+}
+@media (max-width:576px){
+    .career-banner {
+        padding: 50px 0px 70px;
+    }
+    .designation-position .position-card .header .ttx .tag {
+        margin-left: 0;
+        position: absolute;
+        top: 21px;
+        right: 46px;
+    }
+    .designation-position .position-card .tag-img {
+        top: 22px;
+        right: 20px;
+    }
+    .designation-position .position-card .header .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .designation-position .position-card .parag {
+        padding-top: 16px;
+        display: block;
+    }
+    .designation-position .position-card .parag p{
+        max-width: 100%;
+    }
+    .designation-position .position-card .parag a {
+        margin-left: auto;
+    }
+    .key-figures .item-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .key-figures .item-card img{
+        margin: 0 0 14px;
+    }
+    .section-title {
+        text-align: center;
+    }
+    .perks-benefits .content .item-logo {
+        width: 50px;
+        height: 50px;
+        margin: auto auto 20px;
+    }
+    .perks-benefits .content {
+        padding: 0 20px;
+        text-align: center;
+    }
+}
