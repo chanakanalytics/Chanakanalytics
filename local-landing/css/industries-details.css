@@ -1,0 +1,904 @@
+.industries-details{
+    margin: 46px 0 0;
+    padding: 208px 0 180px;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+.industries-details .banner-text h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+    margin: 14px 0;
+    position: relative;
+    width: fit-content;
+}
+.industries-details .banner-text h1::after {
+    content: var(--pseudo);
+    position: absolute;
+    width: 196px;
+    height: 3px;
+    bottom: 10px;
+    right: 0;
+    background: #404EFF;
+    transform: rotate(-1.86deg);
+}
+.industries-details .banner-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #656464;
+    margin-bottom: 0;
+    max-width: 550px;
+}
+/*  */
+.beat-fraud{
+    margin-top: -380px;
+}
+.beat-fraud .text-area h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 10px;
+    color: var(--blue);
+}
+.beat-fraud .text-area p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(18, 17, 39, 0.56);
+}
+.beat-fraud .text-area li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #121127;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.beat-fraud .text-area li::before{
+    content: var(--pseudo);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/images/check-cr-fr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+    top: 2px;
+}
+.beat-fraud .text-area li:last-child{
+    margin-bottom: 0;
+}
+.beat-fraud .talk-card{
+    padding: 70px 45px;
+    border-radius: 8px;
+    max-width: 510px;
+    margin-left: auto;
+}
+/*  */
+.trusted-cmp{
+    margin-top: 100px;
+}
+.trusted-cmp .ttx h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    color: #191D23;
+    margin-bottom: 0;
+    max-width: 516px;
+}
+.trusted-cmp .ttx h5{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #656464;
+    margin-bottom: 0;
+    max-width: 455px;
+    margin-left: auto;
+}
+.trusted-cmp .cmp-item{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border: 1px solid #CEDAEA;
+    border-radius: 12px;
+    height: 88px;
+    transition: var(--transition);
+}
+.trusted-cmp .cmp-item:hover{
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+}
+.trusted-cmp .slick-slider {
+    margin:0 -15px;
+}
+.trusted-cmp .slick-slide {
+    margin-right:15px;
+    margin-left:15px;
+    padding: 15px 0 28px;
+}
+.trusted-cmp #trustedCmpSlider{
+    padding-top: 40px;
+}
+/*  */
+.optimize-payments{
+    margin-top: 124px;
+}
+.optimize-payments .heading{
+    margin-bottom: 55px;
+    max-width: 842px;
+}
+.optimize-payments .heading p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: var(--blue);
+}
+.optimize-payments .heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: normal;
+    color: #121127;
+    margin-bottom: 0;
+}
+.optimize-payments .item img{
+    margin-bottom: 16px;
+}
+.optimize-payments .item h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #121127;
+    margin-bottom: 10px;
+}
+.optimize-payments .item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #1211278f;
+}
+.optimize-payments .item a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.optimize-payments .item a img{
+    margin: 0 0 0 6px;
+}
+
+.optimize-payments-dtl .item img{
+    height: 46px;
+    width: auto;
+}
+.optimize-payments-dtl .item{
+    transition: var(--transition);
+    border-radius: 12px;
+    border: 1px solid #7f7f7f21;
+    background: var(--white);
+    padding: 22px;
+}
+.optimize-payments-dtl .item a img{
+    height: initial;
+}
+.optimize-payments-dtl .item:hover{
+    box-shadow: 0px 12px 56px 0px rgba(6, 28, 61, 0.12);
+}
+/*  */
+.industries-get-started{
+    margin: 120px 0;
+}
+/*  */
+.over-task .text-side span{
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    display: block;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.over-task .text-side h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #121127;
+    margin-bottom: 13px;
+}
+.over-task .text-side p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #42526B;
+}
+.over-task .text-side ul{
+    background: #FFF9EE;
+    border-radius: 16px;
+    margin-top: 48px;
+    padding: 0 32px;
+}
+.over-task .text-side li{
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+.over-task .text-side li+li{
+    border-top: 1px solid #061c3d0f;
+}
+.over-task .text-side h4{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #061C3D;
+}
+.over-task .text-side li img{
+    flex: 0 0 0;
+    margin-right: 20px;
+}
+.over-task .pseudo-class > :nth-child(even){
+    flex-direction: row-reverse;
+}
+.over-task .pseudo-class > :nth-child(even) .text-side ul{
+    background: #FDEEFF;
+}
+/*  */
+.multi-tech{
+    margin-top: 128px;
+}
+.multi-tech .heading{
+    margin-bottom: 55px;
+    max-width: 842px;
+}
+.multi-tech .heading p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: var(--blue);
+}
+.multi-tech .heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #121127;
+    margin-bottom: 0;
+}
+.multi-tech .card{
+    padding: 30px 25px;
+}
+.multi-tech .card{
+    border: 1px solid #1211271f;
+    border-radius: 12px;
+    background-color: var(--white);
+}
+.multi-tech .card h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 12px;   
+    color: #121127;
+}
+.multi-tech .card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #1211277a;
+    margin-bottom: 0;
+}
+.multi-tech .card .tect-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.multi-tech .card .tect-list{
+    padding-top: 16px;
+    margin-top: 32px;
+    border-top: 1px solid #1211271f;;
+}
+/*  */
+.marketing-contect .text-area span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 170%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.marketing-contect .text-area h2{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 46px; 
+    color: #121127;
+    margin-bottom: 30px;
+    max-width: 538px;
+}
+.marketing-contect .text-area p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #42526B;
+    margin-bottom: 24px;
+}
+.marketing-contect .text-area li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #121127;
+    margin-bottom: 10px;
+}
+.marketing-contect .text-area li:last-child {
+    margin-bottom: 0;
+}
+.marketing-contect .text-area li::before {
+    content: var(--pseudo);
+    width: 20px;
+    height: 20px;
+    background-image: url('../../assets/images/check-cr-fr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 12px;
+    position: relative;
+    top: 2px;
+}
+/*  */
+.case-studies .head span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #1211278f;
+    margin-top: 8px;
+    display: block;
+}
+/*  */
+.payments-tab .heading{
+    max-width: 745px;
+    margin-bottom: 32px;
+}
+.payments-tab .heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    color: #121127;
+}
+.payments-tab .heading p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #1211278f;
+}
+.payments-tab .nav-tabs {
+    border: none;
+    width: fit-content;
+    margin: auto;
+    background: #1211270a;
+    border-radius: 100px;
+    padding: 5px;
+}
+.payments-tab .nav-tabs li .nav-link{
+    border: none;
+    margin: 0;
+    background: transparent;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 180%;
+    text-align: center;
+    color: #1211278f;
+}
+.payments-tab .nav-tabs li .nav-link:focus,
+.payments-tab .nav-tabs li .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    isolation: isolate;
+}
+.payments-tab .nav-tabs li .nav-link.active{
+    background: var(--white);    
+    color: #000000;
+    box-shadow: 0px 8px 20px rgba(18, 17, 39, 0.1);
+}
+.payments-tab .tab-pane{
+    margin-top: 74px;
+}
+.payments-tab .price-card{
+    background: var(--white);
+    border: 1px solid #6f768a28;
+    border-radius: 12px;
+    transition: var(--transition);
+    padding: 30px;
+    height: 100%;
+}
+.payments-tab .price-card:hover{
+    box-shadow: 0px 20px 50px #12112714;
+}
+.payments-tab .price-card h5{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #121127;
+}
+.payments-tab .price-card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1211277a;
+}
+.payments-tab .price-card hr{
+    height: 1px;
+    background: #6f768a28;
+    opacity: 1;
+    margin: 22px 0 16px;
+}
+.payments-tab .price-card h2{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 140%;
+    color: #121127;
+}
+.payments-tab .price-card span{
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 180%;
+    color: #1211277a;
+    display: block;
+}
+/*  */
+.latest-blog-section{
+    margin: 80px 0 120px;
+    padding-bottom: 0;
+}
+.latest-blog-section .title span{
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: var(--blue);
+    margin-bottom: 5px;
+}
+.latest-blog-section .title h4{
+    margin-bottom: 6px;
+}
+.latest-blog-section .title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #1211278f;
+    margin-bottom: 0;
+}
+.industries_banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 164px 0 130px;
+}
+.handoff-org {
+    margin-top: 150px;
+    padding-bottom: 140px;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0.00) 0.52%, #f1f6fdab 30.11%, #F1F6FD 63.58%, #FFF 100%);
+}
+.handoff-org .thm-banr{
+    position: relative;
+    padding: 20px;
+}
+.handoff-org .thm-banr::after {
+    content: var(--pseudo);
+    background-color: #CFEDFF;
+    position: absolute;
+    inset: 50% 0;
+    padding-top: 69%;
+    width: 94%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+}
+.handoff-org .thm-banr img{
+    position: relative;
+    z-index: 10;
+}
+.handoff-org .heading-atle h2{
+    color: #192430;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 1.32px;
+    margin-bottom: 20px;
+}
+.handoff-org .heading-atle p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.16px;
+    margin-bottom: 0;
+}
+.handoff-org .flow-list{
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.handoff-org .flow-list .lgk{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #FFF;
+    box-shadow: 0px 28px 60px 0px rgba(152, 152, 152, 0.15);
+}
+.handoff-org .flow-list .ttx{
+    padding-left: 30px;
+}
+.handoff-org .flow-list .ttx h4{
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 7px;
+}
+.handoff-org .flow-list .ttx p{
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+.handoff-org .handoff-other {
+    padding: 110px 0 0;
+}
+.handoff-org .handoff-other .title{
+    padding-right: 14px;
+}
+
+
+@media (max-width:1399px){
+    .handoff-org .heading-atle h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin-bottom: 12px;
+    }
+}
+@media (max-width:1280px) {
+    .handoff-org .thm-banr::after {
+        width: 100%;
+    }
+    .industries-details .banner-text h1 {
+        font-size: 48px;
+        line-height: 58px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:1199px){
+    .handoff-org {
+        margin-top: 89px;
+        padding-bottom: 80px;
+    }
+    .quote-message .content .title h3,
+    .testimonial-slider .heading h4,
+    .handoff-org .heading-atle h2,
+    .search-ends .item h2 {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .optimize-payments .heading {
+        margin-bottom: 45px;
+    }
+    .industries-details .banner-text h1 {
+        font-size: 40px;
+    }
+    .beat-fraud {
+        margin-top: -175px;
+    }
+    .industries-details {
+        padding: 112px 0 90px;
+    }
+    .beat-fraud .talk-card h3 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+    .beat-fraud .talk-card {
+        padding: 30px;
+    }
+    .talk-card p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 46px;
+        padding-bottom: 16px;
+    }
+    .talk-card h5 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+    .over-task .text-side h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 12px;
+    }
+    .over-task .pseudo-class > :nth-child(even){
+        padding-top: 40px;
+    }
+    .payments-tab .heading h2,
+    .case-studies .head h3,
+    .optimize-payments .heading h2,
+    .multi-tech .heading h2 {
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .multi-tech,
+    .optimize-payments {
+        margin-top: 90px;
+    }
+    .case-studies {
+        margin: 75px 0 90px;
+    }
+    .latest-blog-section {
+        margin: 110px 0;
+    }
+    .industries-get-started {
+        margin: 90px 0;
+    }
+    .marketing-contect .text-area h2 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .multi-tech .card h3 {
+        font-size: 22px;
+        line-height: normal;
+        margin-bottom: 9px;
+    }
+    .multi-tech .card p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .multi-tech .card .tect-img {
+        padding: 0;
+    }
+    .multi-tech .card .tect-list {
+        padding-top: 0px;
+        margin-top: 22px;
+    }
+    .payments-tab .price-card {
+        padding: 20px;
+    }
+    .payments-tab .price-card p {
+        line-height: 18px;
+    }
+    .payments-tab .price-card h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width:1199px){
+    .beat-fraud {
+        margin-top: 50px;
+    }
+    .industries-details .banner-text h1 {
+        font-size: 35px;
+    }
+    .industries-details .banner-text h1::after{
+        content: unset;
+    }
+    .industries-details {
+        padding: 100px 0 70px;
+    }
+    .beat-fraud .talk-card{
+        margin: auto;
+    }
+    .trusted-cmp .ttx h5,
+    .trusted-cmp .ttx h3 {
+        max-width: initial;
+    }
+    .trusted-cmp #trustedCmpSlider {
+        padding-top: 10px;
+    }
+    .multi-tech, .optimize-payments {
+        margin-top: 60px;
+    }
+    .industries-get-started {
+        margin: 70px 0;
+    }
+    .over-task .pseudo-class > :nth-child(even) {
+        padding-top: 20px;
+    }
+    .marketing-contect .text-area h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 14px;
+    }
+    .payments-tab .heading h2, .case-studies .head h3, .optimize-payments .heading h2, .multi-tech .heading h2 {
+        font-size: 30px;
+        line-height: 130%;
+    }
+    .latest-blog-section .title span,
+    .over-task .text-side span,
+    .marketing-contect .text-area span,
+    .case-studies .head p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .beat-fraud .text-area h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .optimize-payments .item a {
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .payments-tab .tab-pane {
+        margin-top: 56px;
+    }
+    .latest-blog-section {
+        margin: 70px 0;
+    }
+    .case-studies {
+        margin: 70px 0;
+    }
+    .handoff-org .handoff-other {
+        padding: 16px 15px 0;
+    }
+}
+@media (max-width:991px){
+    .industries_banner .banner-text{
+        max-width: 450px;
+    }
+}
+@media (max-width:767px){
+    .multi-tech, .optimize-payments {
+        margin-top: 40px;
+    }
+    .optimize-payments-dtl .item {
+        border-radius: 10;
+        padding: 20px;
+        text-align: center;
+    }
+    .handoff-org {
+        margin-top: 55px;
+        padding-bottom: 70px;
+    }
+    .handoff-org {
+        margin-top: 65px;
+        padding-bottom: 82px;
+    }
+    .industries-details {
+        padding: 50px 0 60px;
+    }
+    .trusted-cmp {
+        margin-top: 64px;
+    }
+    .optimize-payments .heading {
+        margin-bottom: 42px;
+        max-width: initial;
+    }
+    .quote-message .content .title h3 {
+        font-size: 32px;
+        line-height: 51px;
+    }
+}
+@media (max-width:575px){
+    .latest-blog-section {
+        margin: 70px 0 30px;
+    }
+    .industries-details .banner-text h1 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .industries-details .banner-text p {
+        font-size: 16px;
+        line-height: normal;
+        max-width: initial;
+    }
+    .beat-fraud .text-area p {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .beat-fraud {
+        margin-top: 30px;
+    }
+    .beat-fraud .talk-card h3 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+    .trusted-cmp .ttx h3 {
+        font-size: 24px;
+        line-height: normal;
+        max-width: inherit;
+    }
+    .beat-fraud .talk-card {
+        padding: 20px;
+    }
+    .trusted-cmp .ttx h5 {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .payments-tab .heading h2, .case-studies .head h3, .optimize-payments .heading h2, .multi-tech .heading h2 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .optimize-payments .heading {
+        margin-bottom: 24px;
+        max-width: initial;
+    }
+    .optimize-payments .item p {
+        font-size: 13px;
+        line-height: normal;
+    }
+    .optimize-payments .item h3 {
+        font-size: 15px;
+        line-height: 140%;
+        margin-bottom: 6px;
+    }
+    .get-started-section .main-bg {
+        padding: 36px;
+    }
+    .over-task .text-side h2 {
+        font-size: 26px;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .over-task .text-side p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .over-task .text-side ul {
+        margin-top: 30px;
+        padding: 0 16px;
+    }
+    .over-task .text-side h4 {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .multi-tech .heading {
+        margin-bottom: 32px;
+        max-width: 842px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
