@@ -124,8 +124,6 @@ $(document).ready(function () {
 		  }
 		]
     });
-<<<<<<< Updated upstream
-=======
     $('#clientsLogo2').slick({
         dots: false,
         infinite: true,
@@ -158,7 +156,6 @@ $(document).ready(function () {
 		  }
 		]
     });
->>>>>>> Stashed changes
     // Home page banner slider
     $('#homeSlider').slick({
         dots: true,
