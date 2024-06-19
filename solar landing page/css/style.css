@@ -9,6 +9,7 @@
 body {
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
+    transition: ease-in all 0.3s
 }
 
 /*
@@ -671,6 +672,15 @@ a:hover {
     transition: ease-in all 0.3s
 }
 
+.services_Section .card {
+    border: 1px solid #E4ECF5;
+    border-radius: 5px;
+    padding: 5px;
+    flex-shrink: 0;
+    margin: 0 14px 14px 0;
+    width: 51px;
+    height: 51px;
+}
 
 /******************************************/
 /***********Industries Section*****/
@@ -924,6 +934,11 @@ a:hover {
     border-radius: 10px !important
 }
 
+.helping_point .accordion-button:focus {
+    box-shadow: none
+}
+
+
 .helping_point .accordion-item {
     margin-bottom: 10px;
     border: none;
@@ -1031,7 +1046,8 @@ a:hover {
 
 .client_slider .slick-slide.slick-current .single_client_tele {
     background-color: #0B5ED7;
-    color: #fff
+    color: #fff;
+    transition: ease-in all 0.5s
 }
 
 .single_client_tele p {
@@ -1210,6 +1226,138 @@ a:hover {
     color: #fff
 }
 
+.request_form .form-section {
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px #7f7f7f21;
+    border-radius: 15px;
+    padding: 48px 48px 60px;
+}
+
+.request_form .form-section h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.015em;
+    color: #061C3D;
+    margin-bottom: 30px;
+}
+
+.request_form .form-section .form-field {
+    position: relative;
+    padding: 0 11px;
+    margin: 15px 0 30px 0;
+}
+
+.request_form .form-section textarea,
+.request_form .form-section select,
+.request_form .form-section input:not([type="submit"]),
+.request_form .form-section label {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #061C3D;
+    display: block;
+    padding: 11px 0;
+    text-transform: capitalize;
+
+}
+
+.request_form .form-section label {
+    position: absolute;
+    transition: var(--transition);
+    top: 0;
+    pointer-events: none;
+    transition: ease-in all 0.3s
+}
+
+.request_form .form-section textarea,
+.request_form .form-section select,
+.request_form .form-section input:not([type="submit"]) {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #707070;
+    color: #838E9E;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.request_form .form-section textarea:focus ~ label,
+.request_form .form-section textarea:valid ~ label,
+.request_form .form-section select:focus ~ label,
+.request_form .form-section select:valid ~ label,
+.request_form .form-section input:focus ~ label,
+.request_form .form-section input:valid ~ label {
+    top: -25px;
+    left: 11px;
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.request_form .form-section input[type="file"] {
+    background: #F5F6F7;
+}
+
+.request_form .form-section .textbox {
+    height: 106px;
+    resize: none;
+}
+
+.request_form .form-section [type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: var(--blue);
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 15.5px 10px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.request_form .form-section [type="submit"] img {
+    margin-left: 12px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .request_form .form-section h4 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .request_form .form-section {
+        padding: 0px 15px 35px;
+    }
+
+    .request_form .form-section h4 {
+        text-align: center;
+    }
+
+    .request_form .form-section [type="submit"] {
+        font-size: 16px;
+        padding: 14px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /******************************************/
 /***********footer_section Section*****/
 /******************************************/
@@ -1296,9 +1444,6 @@ a:hover {
 
 
 
-
-
-@media (max-width: 575.98px) {}
 
 
 
@@ -1518,5 +1663,85 @@ a:hover {
 
     .social_media h4 {
         font-size: 13px
+    }
+}
+
+
+
+@media (max-width: 575.98px) {
+    .call_action h4 {
+        font-size: 13px
+    }
+
+    .navbar-brand img {
+        width: 150px
+    }
+
+    .call_action span {
+        height: 40px;
+        width: 40px;
+        line-height: 40px
+    }
+
+    .single_facts {
+        display: flex;
+        min-height: auto
+    }
+
+    .single_facts p {
+        font-size: 14px
+    }
+
+    .fact_icon_wrapper {
+        height: 80px;
+        width: 80px;
+
+    }
+
+    .fact_icon_wrapper img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain
+    }
+
+    .single_facts_cont {
+        width: 70%
+    }
+
+    .fact_icon_wrapper {
+        margin-right: 10px
+    }
+
+    .indus_title {
+        display: none
+    }
+
+    .solution_section .indus_title {
+        display: block
+    }
+
+    .industries_tab .nav {
+        flex-direction: row !important;
+        gap: 7px
+    }
+
+    .indus_icon {
+        height: 40px;
+        width: 40px;
+        margin-right: 0px;
+    }
+
+    .client_slider .slick-prev {
+        left: 2%;
+        z-index: 99999;
+        border: 1px solid #fff;
+        top: 47%
+    }
+
+    .client_slider .slick-next {
+        right: 2%;
+        z-index: 99999;
+        border: 1px solid #fff;
+        top: 47%
     }
 }
